@@ -35,6 +35,14 @@ nav header{
     top: 50px;
     border-radius: 5px;
     box-shadow: 0 5px 15px rgba(141, 141, 141, .9);
+    transition: width .7s ease-in-out;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 0;
 }
 
 nav header .menu{
